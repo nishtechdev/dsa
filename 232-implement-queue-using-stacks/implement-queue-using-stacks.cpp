@@ -5,10 +5,7 @@ stack<int>st2;
     MyQueue() {
         
     }
-    bool empty() {
-        return st1.empty()&&st2.empty();
-        
-    }
+    
     
     void push(int x) {
         st1.push(x);
@@ -63,6 +60,10 @@ stack<int>st2;
             return st2.top(); 
             
         }
+        
+    }
+    bool empty() {
+        return st1.empty()&&st2.empty();
         
     }
     
